@@ -1,0 +1,87 @@
+# ==========================
+# 📦 Node / JavaScript
+# ==========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lock files (如果你指定固定包管理器, 可保留对应一个)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==========================
+# 🔧 Build & Runtime
+# ==========================
+dist/
+build/
+.cache/
+.temp/
+out/
+coverage/
+logs/
+*.log
+
+# Next.js / Nuxt
+.next/
+.nuxt/
+.vercel/
+
+# React / Vue
+.svelte-kit/
+.vite/
+vite.config.ts.timestamp*
+.docusaurus/
+
+# Storybook
+storybook-static/
+
+# ==========================
+# 📝 Environment / Secrets
+# ==========================
+.env
+.env*
+!.env.example  # 保留模板示例
+
+# ==========================
+# 🧪 Testing
+# ==========================
+jest-coverage/
+__tests__/
+*.test.js
+*.spec.js
+.nyc_output/
+
+# ==========================
+# 📦 PM2 / Docker
+# ==========================
+.pm2/logs/
+pm2-logs/
+docker-compose.override.yml
+
+# ==========================
+# 🔧 IDE / Tools / OS
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================
+# 🔐 Firebase / Keys
+# ==========================
+google-services.json
+GoogleService-Info.plist
+firebase-debug.log
+
+# ==========================
+# 🔧 Misc
+# ==========================
+*.sqlite
+*.local
+*.bak
+*.swp
+*.tmp
+*.tar.gz
